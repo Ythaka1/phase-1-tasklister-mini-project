@@ -35,3 +35,31 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+input, select, button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+#tasks li button {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+#tasks li button:hover {
+  background-color: darkred;
+}
